@@ -10,7 +10,7 @@ export default function Home() {
   const [showText, setShowText] = useState(false)
 
   useEffect(() => {
-    setShowText(true) // Déclenche l'animation du texte au chargement
+    setShowText(true)
     try {
       const audioElement = new Audio('/mon-amour.mp3')
       
@@ -93,10 +93,14 @@ export default function Home() {
             ${isPlaying ? 'text-pink-700' : 'text-gray-700'}
             hover:text-red-600 cursor-default
           `}>
-            {`En ce jour spécial, je veux te dire à quel point tu es importante pour moi.
-            Chaque moment passé avec toi est un cadeau précieux.
-            
-            Je t'aime plus que tout au monde.`}
+            {`Mi amor, 
+
+Merci d'être dans ma vie, merci pour ton soutien au quotidien.
+Tu es une personne vraiment incroyable et je me sens tellement chanceux d'être avec toi.
+
+Je t'aime de tout mon cœur ❤️
+
+PS: Clique sur le bouton pour une petite surprise musicale ;)`}
           </p>
 
           <button
