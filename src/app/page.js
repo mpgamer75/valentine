@@ -84,7 +84,7 @@ export default function Home() {
             ${isPlaying ? 'text-pink-600' : 'text-red-600'}
             hover:text-red-500 cursor-default
           `}>
-            Ma douce Valentine ❤️
+            For my copine ❤️
           </h1>
           
           <p className={`
